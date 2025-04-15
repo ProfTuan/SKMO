@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ecto-extract.owl
+
+[Source ontology]
+ECTO
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ExO_0000002 #exposure event
+includeAllChildren 
+
+http://purl.obolibrary.org/obo/RO_0002310 #exposure event or process
+includeAllChildren
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively

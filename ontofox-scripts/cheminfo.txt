@@ -1,0 +1,27 @@
+[URI of the OWL(RDF/XML) output file]
+http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-extract.owl
+
+[Source ontology]
+CHEMINF
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001
+
+[Low level source term URIs]
+http://semanticscience.org/resource/CHEMINF_0000575 #local chemical sample symbol
+includeAllChildren 
+
+http://semanticscience.org/resource/CHEMINF_0000574 #local chemical structure symbol
+includeAllChildren
+
+http://semanticscience.org/resource/CHEMINF_000000 #chemical entity
+includeAllChildren
+
+http://semanticscience.org/resource/CHEMINF_000086 #chemical quality
+includeAllChildren
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
