@@ -1,0 +1,25 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obi-extract.owl
+
+[Source ontology]
+OBI
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000245 #organization
+includeAllChildren 
+
+http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+includeAllChildren
+
+http://purl.obolibrary.org/obo/OBI_0000838 #material maintenance
+includeAllChildren
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
