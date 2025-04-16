@@ -1,0 +1,1336 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/gsso-extract.owl#"
+     xml:base="http://purl.obolibrary.org/obo/gsso-extract.owl"
+     xmlns:schema="https://schema.org/"
+     xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:wiki="https://www.wikidata.org/wiki/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:MESH="http://purl.bioontology.org/ontology/MESH/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:gold="http://purl.org/linguistics/gold/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:STY="http://purl.bioontology.org/ontology/STY/"
+     xmlns:id="https://books.google.com/books/?id="
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:Property="https://www.wikidata.org/wiki/Property:"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/gsso-extract.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1813">
+        <rdfs:label xml:lang="en">short name</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">short_name</owlready_ontology:python_name>
+        <rdfs:subPropertyOf rdf:resource="https://www.wikidata.org/wiki/Property:P2561"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1659">
+        <rdfs:label xml:lang="en">see also</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">see_also_wikidata</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label xml:lang="en">has related synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label xml:lang="en">has narrow synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P686">
+        <rdfs:label xml:lang="en">Gene Ontology ID</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">gene_ontology_id</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/relation">
+        <rdfs:label xml:lang="en">relation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P486">
+        <rdfs:label xml:lang="en">MeSH Descriptor ID</rdfs:label>
+        <rdfs:comment xml:lang="en">Such as C004931 for DPPH or D008180 for systemic lupus erythematosus.</rdfs:comment>
+        <owlready_ontology:python_name xml:lang="en">mesh_descriptor_id</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P5331">
+        <rdfs:label xml:lang="en">OCLC work ID</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">oclc_work_id</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/page"/>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P683">
+        <rdfs:label xml:lang="en">ChEBI ID</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">chebi_id</owlready_ontology:python_name>
+        <schema:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</schema:license>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P5806">
+        <rdfs:label xml:lang="en">SNOMED CT Identifier</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">snomed_ct_identifier</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P2699">
+        <rdfs:label xml:lang="en">URL</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">url_wikidata</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://schema.org/editor">
+        <rdfs:label xml:lang="en">editor</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label xml:lang="en">has database cross reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/relation">
+        <rdfs:label xml:lang="en">relation</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label xml:lang="en">has broad synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
+        <rdfs:label xml:lang="en">title</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">title_dc</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Q1823134">
+        <rdfs:label xml:lang="en">Library of Congress Subject Headings</rdfs:label>
+        <owl:equivalentProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/dc/terms/LCSH</owl:equivalentProperty>
+        <Property:P214 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://viaf.org/viaf/174475040</Property:P214>
+        <owlready_ontology:python_name xml:lang="en">library_of_congress_subject_headings</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://schema.org/alternateName">
+        <rdfs:label xml:lang="en">alternate name</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label xml:lang="en">has exact synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isPartOf">
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label xml:lang="en">label</rdfs:label>
+        <rdfs:comment xml:lang="en">A human-readable name for the subject.</rdfs:comment>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P356">
+        <rdfs:label xml:lang="en">DOI</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">doi</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P675">
+        <rdfs:label xml:lang="en">Google Books ID</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">google_books_id</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://schema.org/bookEdition">
+        <rdfs:label xml:lang="en">book edition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+        <rdfs:label xml:lang="en">is defined by</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher">
+        <rdfs:label xml:lang="en">publisher</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1036">
+        <rdfs:label xml:lang="en">Dewey Decimal Classification</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">dewey_decimal_classification</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights">
+        <rdfs:label xml:lang="en">rights</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/rights"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <rdfs:label xml:lang="en">see also</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">see_also_rdf_schema</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReferencedBy">
+        <rdfs:label xml:lang="en">is referenced by</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:label xml:lang="en">comment</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P3095">
+        <rdfs:label xml:lang="en">practiced by</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">practiced_by</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P461">
+        <rdfs:label xml:lang="en">opposite of</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">opposite_of</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://schema.org/numberOfPages">
+        <rdfs:label xml:lang="en">number of pages</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P5191">
+        <rdfs:label xml:lang="en">derived from</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">derived_from</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P2561">
+        <rdfs:label xml:lang="en">name</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">name</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
+        <rdfs:label xml:lang="en">license</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/rights"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights">
+        <rdfs:label xml:lang="en">rights</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1149">
+        <rdfs:label xml:lang="en">Library of Congress Classification</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">library_of_congress_classification</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P3962">
+        <rdfs:label xml:lang="en">Global Trade Item Number</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">global_trade_item_number</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P1748">
+        <rdfs:label xml:lang="en">NCI Thesaurus ID</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">nci_thesaurus_id</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#python_name"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+        <rdfs:label xml:lang="en">description</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier">
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">identifier_dc</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/replaces">
+        <rdfs:label xml:lang="en">replaces</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#equivalentProperty">
+        <rdfs:label xml:lang="en">equivalent property</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P214">
+        <rdfs:label xml:lang="en">VIAF ID</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">viaf_id</owlready_ontology:python_name>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonym">
+        <rdfs:label xml:lang="en">has synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Property:P212">
+        <rdfs:label xml:lang="en">ISBN-13</rdfs:label>
+        <owlready_ontology:python_name xml:lang="en">isbn13</owlready_ontology:python_name>
+        <rdfs:subPropertyOf rdf:resource="https://www.wikidata.org/wiki/Property:P3962"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://schema.org/license">
+        <rdfs:label xml:lang="en">license</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="https://schema.org/datePublished">
+        <rdfs:label xml:lang="en">date published</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D003195 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D003195">
+        <rdfs:label xml:lang="en">computer communication network</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_000173"/>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D003195</Property:P486>
+        <obo:IAO_0000115 xml:lang="en">A system containing any combination of computers, computer terminals, printers, audio or visual display devices, or telephones interconnected by telecommunications equipment or cables: used to transmit or receive information.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">computer communication networks</schema:alternateName>
+        <oboInOwl:hasSynonym xml:lang="en">distributed system</oboInOwl:hasSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D007802 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D007802">
+        <rdfs:label xml:lang="en">language</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16452"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/linguistics/gold/GeneticTaxon"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000078"/>
+        <Property:P1036 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</Property:P1036>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Language</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Language</oboInOwl:hasDbXref>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://homosaurus.org/terms/language</dc:identifier>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q34770</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A systematic means of communicating by the use of sounds, symbols, or gestures.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A verbal or nonverbal means of communicating ideas or feelings.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Language is a language entity which is the result of encoding and decoding information through systematic creation and usage of systems of symbols, each pairing a specific sign with an intended meaning, established through social conventions.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">languages</schema:alternateName>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">other language</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">world languages</oboInOwl:hasRelatedSynonym>
+        <Property:P5191 xml:lang="enm">langage</Property:P5191>
+        <Property:P5191 xml:lang="fro">language</Property:P5191>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+        <terms:isReferencedBy rdf:resource="https://books.google.com/books/?id=TYyGAAAAIAAJ"/>
+        <terms:isReferencedBy rdf:resource="https://doi.org/10.1002/9781118663219"/>
+        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/1080321952"/>
+        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/940437564"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D019500 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D019500">
+        <rdfs:label xml:lang="en">encyclopedia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D052180"/>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D019500</Property:P486>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Encyclopedia</oboInOwl:hasDbXref>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://homosaurus.org/terms/encyclopedias</dc:identifier>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q5292</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">Work containing informational articles on subjects in every field of knowledge, usually arranged in alphabetical order, or a similar work limited to a special field or subject.</obo:IAO_0000115>
+        <oboInOwl:hasSynonym xml:lang="en">encyclopaedia</oboInOwl:hasSynonym>
+        <schema:alternateName xml:lang="en">encyclopedias</schema:alternateName>
+        <oboInOwl:hasBroadSynonym xml:lang="en">encyclopedias and dictionaries</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">encyclopædia</oboInOwl:hasSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D052180 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D052180">
+        <rdfs:label xml:lang="en">publication format</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000311"/>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D052180</Property:P486>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q58901077</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">Specific genre of publication.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">publication formats</schema:alternateName>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">publications by format</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/STY/T072 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/STY/T072">
+        <rdfs:label xml:lang="en">physical object</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Physical_object</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q223557</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A physical object is an identifiable collection of matter, which may be constrained by an identifiable boundary, and may move as a unit by translation or rotation, in 3-dimensional space.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">physical objects</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/STY/T073 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/STY/T073">
+        <rdfs:label xml:lang="en">manufactured object</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T072"/>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C97325</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q22809652</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A physical object created by hand or machine.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">manufactured good</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">manufactured material</oboInOwl:hasRelatedSynonym>
+        <schema:alternateName xml:lang="en">manufactured objects</schema:alternateName>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">manufactured product</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q35120</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">An entity is anything that exists or has existed or will exist.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">entities</schema:alternateName>
+        <Property:P5191 xml:lang="la">entitātem</Property:P5191>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">continuants</schema:alternateName>
+        <Property:P5191 xml:lang="fr">continuant</Property:P5191>
+        <Property:P5191 xml:lang="la">continuānt</Property:P5191>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <rdfs:label xml:lang="en">occurrent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">An occurrent is an entity that unfolds itself in time or it is the instantaneous boundary of such an entity (for example a beginning or an ending) or it is a temporal or spatiotemporal region which such an entity occupies a temporal region or a spatiotemporal region.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">occurrents</schema:alternateName>
+        <Property:P5191 xml:lang="fr">occurrent</Property:P5191>
+        <Property:P5191 xml:lang="la">occurrēns</Property:P5191>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t.</obo:IAO_0000115>
+        <Property:P5191 xml:lang="en">independent</Property:P5191>
+        <schema:alternateName xml:lang="en">independent continuants</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+        <rdfs:label xml:lang="en">process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q3249551</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Process</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A process is an entity that is identifiable only through the unfolding of time, has temporal parts, and unless otherwise specified/predicted, cannot be identified from any instant of time in which it exists.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">processed</oboInOwl:hasRelatedSynonym>
+        <schema:alternateName xml:lang="en">processes</schema:alternateName>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">processing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">processual</oboInOwl:hasRelatedSynonym>
+        <Property:P5191 xml:lang="frm">procès</Property:P5191>
+        <Property:P5191 xml:lang="la">prōcessus</Property:P5191>
+        <Property:P5191 xml:lang="xno">procés</Property:P5191>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
+        <rdfs:label xml:lang="en">object</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">An object is an entity that is wholly identifiable at any instant of time during which it exists.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">objects</schema:alternateName>
+        <Property:P5191 xml:lang="la">obiectum</Property:P5191>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:label xml:lang="en">material entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q53617407</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">material</oboInOwl:hasRelatedSynonym>
+        <schema:alternateName xml:lang="en">material entities</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <Property:P461 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000141">
+        <rdfs:label xml:lang="en">immaterial entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">An entity which is immaterial.</obo:IAO_0000115>
+        <Property:P5191 xml:lang="en">immaterial</Property:P5191>
+        <schema:alternateName xml:lang="en">immaterial entities</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <Property:P461 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:label xml:lang="en">chemical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Property:P683 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_24431</Property:P683>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q43460564</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">chemical entities</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007610">
+        <rdfs:label xml:lang="en">behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000060"/>
+        <Property:P686 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/GO_0007610</Property:P686>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C16326</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Behavior</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q9332</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">The actions or reactions of an object or organism, usually in relation to the environment or surrounding world of stimuli.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">behavioral</oboInOwl:hasRelatedSynonym>
+        <schema:alternateName xml:lang="en">behaviors</schema:alternateName>
+        <oboInOwl:hasSynonym xml:lang="en">behaviour</oboInOwl:hasSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
+        <rdfs:label xml:lang="en">biological process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Property:P686 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/GO_0008150</Property:P686>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C17828</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Biological_process</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q2996394</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">An activity occurring within an organism, between organisms or among organisms and the mechanisms underlying such events.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">biological processes</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0035176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0035176">
+        <rdfs:label xml:lang="en">social behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051704"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051705"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_000029"/>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D012919</Property:P486>
+        <Property:P686 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/GO_0035176</Property:P686>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Social_behavior</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q921513</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">Behavior directed towards society, or taking place between members of the same species. Occurs predominantly, or only, in individuals that are part of a group. Behavior such as predation which involves members of different species is not social. Communication between members of different species is also not social behavior.</obo:IAO_0000115>
+        <oboInOwl:hasSynonym xml:lang="en">intraspecies interaction</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">intraspecific interaction</oboInOwl:hasSynonym>
+        <schema:alternateName xml:lang="en">social behaviors</schema:alternateName>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">social organism behavior</oboInOwl:hasRelatedSynonym>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GSSO_000709"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051704">
+        <rdfs:label xml:lang="en">multi-organism process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <Property:P686 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/GO_0051704</Property:P686>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q22269697</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A biological process which involves another organism of the same or different species.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">multi-organism processes</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051705">
+        <rdfs:label xml:lang="en">multi-organism behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <Property:P686 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/GO_0051705</Property:P686>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q22272508</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">Any process in which an organism has a behavioral effect on another organism of the same or different species.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">multi-organism behaviors</schema:alternateName>
+        <oboInOwl:hasSynonym xml:lang="en">multi-organism behaviour</oboInOwl:hasSynonym>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000029">
+        <rdfs:label xml:lang="en">social process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://homosaurus.org/terms/socialProcesses</dc:identifier>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q3406405</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A recurrent and patterned process that involves the interactions or responses of individuals to one another which have attained stability.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">social processes</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000138">
+        <rdfs:label xml:lang="en">equivalence class</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000138"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Equivalence_class</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">The class of all members of a set that are in a given equivalence relation.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">equivalence classes</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_000172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000172">
+        <rdfs:label xml:lang="en">computer system hardware</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400107"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Computer_hardware</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Computer_hardware</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q3966</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">The physical, tangible parts or components of a computer, such as the cabinet, central processing unit, monitor, keyboard, computer data storage, graphics card, sound card, speakers and motherboard.</obo:IAO_0000115>
+        <oboInOwl:hasSynonym xml:lang="en">computer hardware</oboInOwl:hasSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">computer hardware device</oboInOwl:hasRelatedSynonym>
+        <Property:P1813 xml:lang="en">hardware</Property:P1813>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400107"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_000173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000173">
+        <rdfs:label xml:lang="en">computer network</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_000172"/>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85029513</wiki:Q1823134>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Computer_networks</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Computer_network</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q1301371</oboInOwl:hasDbXref>
+        <Property:P1149>TK5105.5-TK5105.9</Property:P1149>
+        <obo:IAO_0000115 xml:lang="en">A digital telecommunications network which allows nodes to share resources. In computer networks, computing devices exchange data with each other using connections (data links) between nodes. These data links are established over cable media such as wires or optic cables, or wireless media such as Wi-Fi.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">computer networks</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400107"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_000229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000229">
+        <rdfs:label xml:lang="en">agent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q24229398</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A person or thing that takes an active role or produces a specified effect.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">agents</schema:alternateName>
+        <Property:P5191 xml:lang="la">agēns</Property:P5191>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000306">
+        <rdfs:label xml:lang="en">pictogram</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80239"/>
+        <obo:IAO_0000115 xml:lang="en">An ideogram that conveys its meaning through its pictorial resemblance to a physical object.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Pictogram</oboInOwl:hasDbXref>
+        <schema:alternateName xml:lang="en">pictograms</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_000588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000588">
+        <rdfs:label xml:lang="en">online encyclopedia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D019500"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Online_encyclopedia</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">An encyclopedia accessible through the internet.</obo:IAO_0000115>
+        <oboInOwl:hasSynonym xml:lang="en">digital encyclopedia</oboInOwl:hasSynonym>
+        <schema:alternateName xml:lang="en">online encyclopedias</schema:alternateName>
+        <terms:isPartOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20342"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_000709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000709">
+        <rdfs:label xml:lang="en">social interaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_000029"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_000721"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000009"/>
+        <Property:P1036 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">302</Property:P1036>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Social_relation</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q609298</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">An interaction between two or more individuals or populations in a society. Social interaction is a building block of society.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">intraspecific interaction</oboInOwl:hasRelatedSynonym>
+        <schema:alternateName xml:lang="en">social interactions</schema:alternateName>
+        <oboInOwl:hasSynonym xml:lang="en">social relation</oboInOwl:hasSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/GSSO_000714"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GO_0035176"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_000721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000721">
+        <rdfs:label xml:lang="en">biological interaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54216"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Biological_interaction</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Biological_interactions</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">The effect that a pair of organisms living together in a community have on each other.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">biological interactions</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_001206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_001206">
+        <rdfs:label xml:lang="en">communication behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0035176"/>
+        <obo:IAO_0000115 xml:lang="en">Human or non-human animal activity through which the exchange or transmission of thoughts, messages, or information is accomplished.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">communication behaviors</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <Property:P1659 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16452"/>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16452"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000300">
+        <rdfs:label xml:lang="en">textual entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000079"/>
+        <obo:IAO_0000115 xml:lang="en">A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">textual entities</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310">
+        <rdfs:label xml:lang="en">document</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C19498</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Document</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A collection of information content entities intended to be understood together as a whole.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">documents</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000311">
+        <rdfs:label xml:lang="en">publication</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh2004003366</wiki:Q1823134>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/IAO_0000311</dc:identifier>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://semanticscience.org/resource/SIO_000087</dc:identifier>
+        <obo:IAO_0000115 xml:lang="en">A publication is a document that has been made available by a publisher.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">publications</schema:alternateName>
+        <oboInOwl:hasSynonym xml:lang="en">published material</oboInOwl:hasSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000021">
+        <rdfs:label xml:lang="en">interpersonal process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051705"/>
+        <obo:IAO_0000115 xml:lang="en">A process involving at least two agents.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">interpersonal processes</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16452">
+        <rdfs:label xml:lang="en">communication</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000021"/>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D003142</Property:P486>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C16452</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Communication</oboInOwl:hasDbXref>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://homosaurus.org/terms/communication</dc:identifier>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q11024</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">The exchange of information between objects, people, or groups.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The exchange or transmission of ideas, attitudes, or beliefs between individuals or groups.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">communicate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">communicated</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">communicating</oboInOwl:hasRelatedSynonym>
+        <schema:alternateName xml:lang="en">communications</schema:alternateName>
+        <Property:P3095 xml:lang="en">communicator</Property:P3095>
+        <Property:P5191 xml:lang="fro">communicacioun</Property:P5191>
+        <Property:P5191 xml:lang="la">commūnicātiō</Property:P5191>
+        <Property:P5191 xml:lang="la">commūnicātiōnem</Property:P5191>
+        <Property:P1659 rdf:resource="http://purl.obolibrary.org/obo/GSSO_001206"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+        <terms:isReferencedBy rdf:resource="https://books.google.com/books/?id=TYyGAAAAIAAJ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20342">
+        <rdfs:label xml:lang="en">internet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D003195"/>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh92002816</wiki:Q1823134>
+        <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D020407</Property:P486>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C20342</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Internet</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Internet</oboInOwl:hasDbXref>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://homosaurus.org/terms/internet</dc:identifier>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q75</oboInOwl:hasDbXref>
+        <Property:P1149>TK5105.875.I57</Property:P1149>
+        <Property:P5191 xml:lang="en">-net</Property:P5191>
+        <obo:IAO_0000115 xml:lang="en">A global system of computer networks that provides the common TCP IP infrastructure for e-mail, the World Wide Web, and other online activities.</obo:IAO_0000115>
+        <Property:P1149>ZA4195-ZA4201</Property:P1149>
+        <obo:IAO_0000115 xml:lang="en">A loose confederation of computer communication networks around the world. The networks that make up the Internet are connected through several backbone networks. The Internet grew out of the US Government ARPAnet project and was designed to facilitate information exchange.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A worldwide, decentralized network of computer networks connecting individuals and organizations to information and electronic mail services.</obo:IAO_0000115>
+        <Property:P1149>HM851</Property:P1149>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">Internet</oboInOwl:hasNarrowSynonym>
+        <Property:P5191 xml:lang="en">inter-</Property:P5191>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">interconnected network</oboInOwl:hasRelatedSynonym>
+        <terms:replaces xml:lang="en">internetwork</terms:replaces>
+        <oboInOwl:hasRelatedSynonym rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/GSSO_010266"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/1080321952"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25404">
+        <rdfs:label xml:lang="en">action</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43431"/>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C25404</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Action_(philosophy)</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q4026292</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A thing done.</obo:IAO_0000115>
+        <terms:replaces xml:lang="en">accon</terms:replaces>
+        <terms:replaces xml:lang="en">acon</terms:replaces>
+        <terms:replaces xml:lang="en">acsion</terms:replaces>
+        <schema:alternateName xml:lang="en">actions</schema:alternateName>
+        <terms:replaces xml:lang="en">actyon</terms:replaces>
+        <terms:replaces xml:lang="en">excyon</terms:replaces>
+        <terms:replaces xml:lang="enm">accion</terms:replaces>
+        <terms:replaces xml:lang="enm">accione</terms:replaces>
+        <terms:replaces xml:lang="enm">accioun</terms:replaces>
+        <terms:replaces xml:lang="enm">accyon</terms:replaces>
+        <terms:replaces xml:lang="enm">accyoun</terms:replaces>
+        <terms:replaces xml:lang="enm">accyoune</terms:replaces>
+        <terms:replaces xml:lang="enm">acsyon</terms:replaces>
+        <terms:replaces xml:lang="enm">action</terms:replaces>
+        <terms:replaces xml:lang="enm">actione</terms:replaces>
+        <terms:replaces xml:lang="enm">actioun</terms:replaces>
+        <terms:replaces xml:lang="enm">axion</terms:replaces>
+        <terms:replaces xml:lang="enm">axyon</terms:replaces>
+        <Property:P5191 xml:lang="frm">accion</Property:P5191>
+        <Property:P5191 xml:lang="la">āctiō</Property:P5191>
+        <Property:P5191 xml:lang="xno">accioun</Property:P5191>
+        <Property:P3095 rdf:resource="http://purl.obolibrary.org/obo/GSSO_000229"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C43431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C43431">
+        <rdfs:label xml:lang="en">activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C43431</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q1914636</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">An active process; excludes processes and mechanisms which fulfill biological functions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Any action that can, in the context of a study or a post-marketing investigation, be defined, planned, scheduled or performed.</obo:IAO_0000115>
+        <terms:replaces xml:lang="en">actiuitie</terms:replaces>
+        <terms:replaces xml:lang="en">actiuity</terms:replaces>
+        <terms:replaces xml:lang="en">actiuitye</terms:replaces>
+        <terms:replaces xml:lang="en">actiuyte</terms:replaces>
+        <terms:replaces xml:lang="en">actiuytie</terms:replaces>
+        <schema:alternateName xml:lang="en">activities</schema:alternateName>
+        <terms:replaces xml:lang="en">activyte</terms:replaces>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">general activity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">human activity</oboInOwl:hasNarrowSynonym>
+        <terms:replaces xml:lang="enm">actyvete</terms:replaces>
+        <terms:replaces xml:lang="enm">actyvytee</terms:replaces>
+        <Property:P5191 xml:lang="frm">activite</Property:P5191>
+        <Property:P5191 xml:lang="la">activitas</Property:P5191>
+        <terms:replaces xml:lang="sco">actiuite</terms:replaces>
+        <terms:replaces xml:lang="sco">actiuitee</terms:replaces>
+        <terms:replaces xml:lang="sco">activitee</terms:replaces>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C54216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C54216">
+        <rdfs:label xml:lang="en">interaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25404"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Interaction</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q52948</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">Interaction is a processual entity that has two or more participants (i.e., interactors) that have an effect upon one another.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The quality, state, or process of (two or more things) acting on each other.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">interact</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">interacted</oboInOwl:hasRelatedSynonym>
+        <schema:alternateName xml:lang="en">interactions</schema:alternateName>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">interacts</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C80239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C80239">
+        <rdfs:label xml:lang="en">ideogram</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000105"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Ideogram</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A picture or symbol used in a system of writing.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">ideograms</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0400107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400107">
+        <rdfs:label xml:lang="en">computer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85029552</wiki:Q1823134>
+        <Property:P5806 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/SNOMEDCT/706692004</Property:P5806>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C16464</Property:P1748>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/OBI_0400107</dc:identifier>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Computers</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Computer</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q68</oboInOwl:hasDbXref>
+        <Property:P1149>TK7885-TK7895</Property:P1149>
+        <Property:P5191 xml:lang="en">-er</Property:P5191>
+        <obo:IAO_0000115 xml:lang="en">A computer is an instrument which manipulates (stores, retrieves, and processes) data according to a list of instructions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A machine for performing calculations automatically.</obo:IAO_0000115>
+        <Property:P1149>QA75.5-QA76.95</Property:P1149>
+        <Property:P5191 xml:lang="en">compute</Property:P5191>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">computer equipment</oboInOwl:hasRelatedSynonym>
+        <schema:alternateName xml:lang="en">computers</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000060">
+        <rdfs:label xml:lang="en">bodily process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A process in which at least one bodily component of an organsim participates.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">bodily processes</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/linguistics/gold/GeneticTaxon -->
+
+    <owl:Class rdf:about="http://purl.org/linguistics/gold/GeneticTaxon">
+        <rdfs:label xml:lang="en">genetic linguistic taxon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/linguistics/gold/LinguisticTaxon"/>
+        <obo:IAO_0000115 xml:lang="en">Linguistic taxa whose members are based on genetic relatedness.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">genetic linguistic taxa</schema:alternateName>
+        <Property:P1813 xml:lang="en">genetic taxon</Property:P1813>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/linguistics/gold/LinguisticTaxon -->
+
+    <owl:Class rdf:about="http://purl.org/linguistics/gold/LinguisticTaxon">
+        <rdfs:label xml:lang="en">linguistic taxon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/linguistics/gold/Taxon"/>
+        <obo:IAO_0000115 xml:lang="en">The class of taxa whose instances are used in the scientific classification of language varieties. That is, instances of linguistic taxon have instances that are human language varieties.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">linguistic taxa</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/linguistics/gold/Taxon -->
+
+    <owl:Class rdf:about="http://purl.org/linguistics/gold/Taxon">
+        <rdfs:label xml:lang="en">taxon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_000138"/>
+        <obo:IAO_0000115 xml:lang="en">Taxa are the class of scientific categories used to create a taxonomy and determined according to scientific principles in a given domain.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">taxa</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000009 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000009">
+        <rdfs:label xml:lang="en">social entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000015"/>
+        <obo:IAO_0000115 xml:lang="en">A social entity pertains to the interaction among individuals and groups.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">social entities</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000015 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000015">
+        <rdfs:label xml:lang="en">information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is about some thing.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information entity is an entity that represents information about some other entity. For example, a measurement, a clustered data set.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Information content entity is an object that requires some background knowledge or procedure to correctly interpret.</obo:IAO_0000115>
+        <Property:P5191 xml:lang="en">content</Property:P5191>
+        <Property:P1813 xml:lang="en">content</Property:P1813>
+        <Property:P1813 xml:lang="en">content entity</Property:P1813>
+        <Property:P1813 xml:lang="en">information</Property:P1813>
+        <Property:P5191 xml:lang="en">information</Property:P5191>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">information artifact</oboInOwl:hasRelatedSynonym>
+        <Property:P1813 xml:lang="en">information content</Property:P1813>
+        <schema:alternateName xml:lang="en">information content entities</schema:alternateName>
+        <oboInOwl:hasSynonym xml:lang="en">information entity</oboInOwl:hasSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">information resource</oboInOwl:hasRelatedSynonym>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000075 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000075">
+        <rdfs:label xml:lang="en">mathematical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000015"/>
+        <obo:IAO_0000115 xml:lang="en">A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.</obo:IAO_0000115>
+        <Property:P5191 xml:lang="en">mathematical</Property:P5191>
+        <schema:alternateName xml:lang="en">mathematical entities</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000078 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000078">
+        <rdfs:label xml:lang="en">language entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000015"/>
+        <obo:IAO_0000115 xml:lang="en">A language entity implements some language specification for the visual interpretation and is part of some document.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">language entities</schema:alternateName>
+        <Property:P5191 rdf:resource="http://purl.bioontology.org/ontology/MESH/D007802"/>
+        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000079 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000079">
+        <rdfs:label xml:lang="en">visual language entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000078"/>
+        <obo:IAO_0000115 xml:lang="en">A visual language entity is a language entity that is manifested within the spectrum of light and can be pereceived and processed by a visual system.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">visual language entities</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000105 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000105">
+        <rdfs:label xml:lang="en">symbol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000612"/>
+        <obo:IAO_0000115 xml:lang="en">A symbol is a proposition about what an entity represents.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">symbols</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/940437564"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000106 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000106">
+        <rdfs:label xml:lang="en">book</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000311"/>
+        <Property:P1036 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Property:P1036>
+        <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85015738</wiki:Q1823134>
+        <Property:P5806 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/SNOMEDCT/278212002</Property:P5806>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C16360</Property:P1748>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://semanticscience.org/resource/SIO_000106</dc:identifier>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Book</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Books</oboInOwl:hasDbXref>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://homosaurus.org/terms/books</dc:identifier>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nonbinary.wiki/wiki/Books</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q571</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A book is a publication composed of a large number of entries.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A volume made up of pages fastened along one edge and enclosed between protective covers.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">books</schema:alternateName>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">the book</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000138 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000138">
+        <rdfs:label xml:lang="en">class</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000289"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Class_(set_theory)</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A class is a collection of sets which can be unambiguously defined by a property that all its members share.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">classes</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000289 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000289">
+        <rdfs:label xml:lang="en">set</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000075"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Set_(mathematics)</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A set is a collection of entities, for which there may be zero members.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">mathematical set</oboInOwl:hasExactSynonym>
+        <schema:alternateName xml:lang="en">sets</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000612 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000612">
+        <rdfs:label xml:lang="en">representation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000015"/>
+        <obo:IAO_0000115 xml:lang="en">A representation is a entity that in some way represents another entity (or attribute thereof).</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">representations</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000956 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000956">
+        <rdfs:label xml:lang="en">device</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T073"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_010462"/>
+        <Property:P5806 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/SNOMEDCT/49062001</Property:P5806>
+        <Property:P1748 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/NCIT_C62103</Property:P1748>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q1183543</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A device is usually a constructed tool.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An object contrived for a specific purpose.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">devices</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_010462 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_010462">
+        <rdfs:label xml:lang="en">heterogeneous substance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <obo:IAO_0000115 xml:lang="en">A heterogeneous substance is a chemical substance that is composed of more than one different kind of component.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">heterogeneous substances</schema:alternateName>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D007802 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/MESH/D007802">
+        <rdfs:label xml:lang="en">language</rdfs:label>
+        <Property:P1036 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</Property:P1036>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Language</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Language</oboInOwl:hasDbXref>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://homosaurus.org/terms/language</dc:identifier>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q34770</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A systematic means of communicating by the use of sounds, symbols, or gestures.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A verbal or nonverbal means of communicating ideas or feelings.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Language is a language entity which is the result of encoding and decoding information through systematic creation and usage of systems of symbols, each pairing a specific sign with an intended meaning, established through social conventions.</obo:IAO_0000115>
+        <schema:alternateName xml:lang="en">languages</schema:alternateName>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">other language</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">world languages</oboInOwl:hasRelatedSynonym>
+        <Property:P5191 xml:lang="enm">langage</Property:P5191>
+        <Property:P5191 xml:lang="fro">language</Property:P5191>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+        <terms:isReferencedBy rdf:resource="https://books.google.com/books/?id=TYyGAAAAIAAJ"/>
+        <terms:isReferencedBy rdf:resource="https://doi.org/10.1002/9781118663219"/>
+        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/1080321952"/>
+        <terms:isReferencedBy rdf:resource="https://www.worldcat.org/oclc/940437564"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://books.google.com/books/?id=TYyGAAAAIAAJ -->
+
+    <owl:NamedIndividual rdf:about="https://books.google.com/books/?id=TYyGAAAAIAAJ">
+        <rdf:type rdf:resource="http://purl.bioontology.org/ontology/MESH/D019500"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GSSO_000588"/>
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000106"/>
+        <rdfs:label xml:lang="en">Encyclopedia of Homosexuality</rdfs:label>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1484</schema:numberOfPages>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</schema:datePublished>
+        <Property:P675 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://books.google.com/books/?id=TYyGAAAAIAAJ</Property:P675>
+        <Property:P675 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://books.google.com/books/?id=ez1HAAAAMAAJ</Property:P675>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Encyclopedia_of_Homosexuality</oboInOwl:hasDbXref>
+        <Property:P2699 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://web.archive.org/web/20180815070741/http://homoencyclopedia.com/concise.pdf</Property:P2699>
+        <Property:P2699 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://web.archive.org/web/20190604230148/http://williamapercy.com/wiki/index.php?title=Encyclopedia_of_Homosexuality</Property:P2699>
+        <dc:title xml:lang="en">Encyclopedia of Homosexuality</dc:title>
+        <dc:publisher xml:lang="en">Garland</dc:publisher>
+        <rdfs:comment xml:lang="en">Pages 1200 to 1204 include the entry &quot;Slang Terms for Homosexuals in English&quot;, written by Gary S. Simes.</rdfs:comment>
+        <schema:editor>Wayne R. Dynes</schema:editor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://doi.org/10.1002/9781118663219 -->
+
+    <owl:NamedIndividual rdf:about="https://doi.org/10.1002/9781118663219">
+        <rdf:type rdf:resource="http://purl.bioontology.org/ontology/MESH/D019500"/>
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000106"/>
+        <rdfs:label xml:lang="en">The Wiley Blackwell Encyclopedia of Gender and Sexuality Studies</rdfs:label>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-30T00:00:00</schema:datePublished>
+        <Property:P356 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1002/9781118663219</Property:P356>
+        <dc:title xml:lang="en">The Wiley Blackwell Encyclopedia of Gender and Sexuality Studies</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.worldcat.org/oclc/1080321952 -->
+
+    <owl:NamedIndividual rdf:about="https://www.worldcat.org/oclc/1080321952">
+        <rdf:type rdf:resource="http://purl.bioontology.org/ontology/MESH/D019500"/>
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000106"/>
+        <rdfs:label xml:lang="en">Global Encyclopedia of Lesbian, Gay, Bisexual, Transgender, and Queer (LGBTQ) History</rdfs:label>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</schema:datePublished>
+        <Property:P212 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9780684325545</Property:P212>
+        <Property:P5331 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcat.org/oclc/1080321952</Property:P5331>
+        <dc:publisher xml:lang="en">Charles Scribner&#39;s Sons</dc:publisher>
+        <dc:title xml:lang="en">Global Encyclopedia of Lesbian, Gay, Bisexual, Transgender, and Queer (LGBTQ) History</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.worldcat.org/oclc/940437564 -->
+
+    <owl:NamedIndividual rdf:about="https://www.worldcat.org/oclc/940437564">
+        <rdf:type rdf:resource="http://purl.bioontology.org/ontology/MESH/D019500"/>
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000106"/>
+        <rdfs:label xml:lang="en">Encyclopedia of Lesbian, Gay, Bisexual and Transgender History in America</rdfs:label>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</schema:datePublished>
+        <Property:P212 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9780684312613</Property:P212>
+        <Property:P5331 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcat.org/oclc/940437564</Property:P5331>
+        <dc:publisher xml:lang="en">Charles Scribner&#39;s Sons</dc:publisher>
+        <dc:title xml:lang="en">Encyclopedia of Lesbian, Gay, Bisexual and Transgender History in America</dc:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/gsso.owl">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO - the Gender, Sex, and Sexual Orientation ontology</dc:title>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO is the Gender, Sex, and Sex Orientation ontology, including terms related to gender identity and expression, sexual and romantic identity and orientation, and sexual and reproductive behavior.</dc:description>
+        <dc:creator>Clair A. Kronk</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+        <foaf:page rdf:resource="https://ontobee.org/ontology/GSSO"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

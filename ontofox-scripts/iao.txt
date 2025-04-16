@@ -1,0 +1,35 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/iao-extract.owl
+
+[Source ontology]
+IAO
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IAO_0020000 #identifier
+includeAllChildren
+
+http://purl.obolibrary.org/obo/BFO_0000023 #role
+includeAllChildren
+
+http://purl.obolibrary.org/obo/IAO_0000422 #postal address
+
+http://purl.obolibrary.org/obo/IAO_0000027 #data item
+includeAllChildren
+
+http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+includeAllChildren
+
+http://purl.obolibrary.org/obo/BFO_0000019 #quality
+includeAllChildren
+
+http://purl.obolibrary.org/obo/IAO_0000009 #datum label
+includeAllChildren
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
