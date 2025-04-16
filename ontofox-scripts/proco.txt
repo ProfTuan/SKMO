@@ -1,0 +1,20 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/proco-extract.owl
+
+[Source ontology]
+PROCO
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PROCO_0000290 #control strategy
+includeAllChildren 
+
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively

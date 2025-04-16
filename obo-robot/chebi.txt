@@ -1,0 +1,19 @@
+#### some issues with CHEBI
+#### created a manual version of CHEBI instead
+
+
+robot extract --method MIREOT \
+    --input chebi.owl \
+    --branch-from-term "obo:CHEBI_24431" \
+    --branch-from-term "obo:CHEBI_50906" \
+    --output chebi-extract.owl
+
+
+
+robot extract --method MIREOT \
+    --input chebi.owl \
+    --upper-term "obo:CHEBI_24431" \
+    --lower-term "obo:CHEBI_24433" \
+    --branch-from-term "obo:CHEBI_59999" \
+    --branch-from-term "obo:CHEBI_23367" \
+    --output chebi-extract-sample.owl
