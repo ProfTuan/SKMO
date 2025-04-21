@@ -103,6 +103,111 @@
     <Declaration>
         <Class IRI="#SKMO_0000027"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000037"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000043"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000048"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000049"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000050"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000051"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000052"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000053"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000055"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000060"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000062"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#SKMO_0000001"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
@@ -309,6 +414,146 @@
         <Class IRI="#SKMO_0000027"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000033"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000028"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000029"/>
+        <Class IRI="#SKMO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000030"/>
+        <Class IRI="#SKMO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000031"/>
+        <Class IRI="#SKMO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000032"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000033"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000034"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000035"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000036"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000037"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000038"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000039"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000040"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000041"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000042"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000043"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000044"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000045"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000046"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000047"/>
+        <Class IRI="#SKMO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000048"/>
+        <Class IRI="#SKMO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000049"/>
+        <Class IRI="#SKMO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000050"/>
+        <Class IRI="#SKMO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000051"/>
+        <Class IRI="#SKMO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000052"/>
+        <Class IRI="#SKMO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000053"/>
+        <Class IRI="#SKMO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000054"/>
+        <Class IRI="#SKMO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000055"/>
+        <Class IRI="#SKMO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000056"/>
+        <Class IRI="#SKMO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000057"/>
+        <Class IRI="#SKMO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000058"/>
+        <Class IRI="#SKMO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000059"/>
+        <Class IRI="#SKMO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000060"/>
+        <Class IRI="#SKMO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000061"/>
+        <Class IRI="#SKMO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000062"/>
+        <Class IRI="#SKMO_0000031"/>
+    </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SKMO_0000001</IRI>
@@ -443,6 +688,181 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SKMO_0000027</IRI>
         <Literal xml:lang="en">uses advised against</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000028</IRI>
+        <Literal xml:lang="en">Globally Harmonized System of Classification and Labelling of Chemicals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000029</IRI>
+        <Literal xml:lang="en">Health Hazards Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000030</IRI>
+        <Literal xml:lang="en">Physical Hazards Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000031</IRI>
+        <Literal xml:lang="en">Enviornmental Hazards Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000032</IRI>
+        <Literal xml:lang="en">Explosive hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000033</IRI>
+        <Literal xml:lang="en">Flammable Gases hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000034</IRI>
+        <Literal xml:lang="en">Flammable Aerosol harzard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000035</IRI>
+        <Literal xml:lang="en">Oxidizing Gases hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000036</IRI>
+        <Literal xml:lang="en">Gases under Preassure hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000037</IRI>
+        <Literal xml:lang="en">Flammable Liquids hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000038</IRI>
+        <Literal xml:lang="en">Flammable Solids hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000039</IRI>
+        <Literal xml:lang="en">Self-Reactive chemical hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000040</IRI>
+        <Literal xml:lang="en">Pyrophoric chemical hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000041</IRI>
+        <Literal xml:lang="en">Self-heating chemical hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000042</IRI>
+        <Literal xml:lang="en">Chemicals in contact with water emit flammable gases hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000043</IRI>
+        <Literal xml:lang="en">Oxidizing liquids hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000044</IRI>
+        <Literal xml:lang="en">Oxidizing solid hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000045</IRI>
+        <Literal xml:lang="en">Organic peroxides hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000046</IRI>
+        <Literal xml:lang="en">Corrosive to metal hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000047</IRI>
+        <Literal xml:lang="en">Combustible dust hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000048</IRI>
+        <Literal xml:lang="en">Acute Toxicity hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000049</IRI>
+        <Literal xml:lang="en">Skin corrision and irritation hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000050</IRI>
+        <Literal xml:lang="en">Serious eye damage hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000051</IRI>
+        <Literal xml:lang="en">Respiratoy senizistaization hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000052</IRI>
+        <Literal xml:lang="en">Skin sensitization hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000053</IRI>
+        <Literal xml:lang="en">Germ cell mutagenicity hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000054</IRI>
+        <Literal xml:lang="en">Carcinogenicity hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000055</IRI>
+        <Literal xml:lang="en">Reproductivity toxicity hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000056</IRI>
+        <Literal xml:lang="en">Specific target organ toxicity for single exposure hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000057</IRI>
+        <Literal xml:lang="en">Specific target organ toxicity for repeated prolonged exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000058</IRI>
+        <Literal xml:lang="en">Aspiration hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000059</IRI>
+        <Literal xml:lang="en">Simple Asphyxiants hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000060</IRI>
+        <Literal xml:lang="en">Acute aquatic toxicity hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000061</IRI>
+        <Literal xml:lang="en">Chronic aquatic toxicity hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000062</IRI>
+        <Literal xml:lang="en">Ozone depleting potential hazard</Literal>
     </AnnotationAssertion>
 </Ontology>
 
