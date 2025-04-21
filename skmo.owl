@@ -208,6 +208,66 @@
     <Declaration>
         <Class IRI="#SKMO_0000062"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000080"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000082"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#SKMO_0000001"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
@@ -554,6 +614,118 @@
         <Class IRI="#SKMO_0000062"/>
         <Class IRI="#SKMO_0000031"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000063"/>
+        <Class IRI="#SKMO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000064"/>
+        <Class IRI="#SKMO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000065"/>
+        <Class IRI="#SKMO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000066"/>
+        <Class IRI="#SKMO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000067"/>
+        <Class IRI="#SKMO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000068"/>
+        <Class IRI="#SKMO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000069"/>
+        <Class IRI="#SKMO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000070"/>
+        <Class IRI="#SKMO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000071"/>
+        <Class IRI="#SKMO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000072"/>
+        <Class IRI="#SKMO_0000071"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000073"/>
+        <Class IRI="#SKMO_0000071"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000074"/>
+        <Class IRI="#SKMO_0000071"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000075"/>
+        <Class IRI="#SKMO_0000071"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000076"/>
+        <Class IRI="#SKMO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000077"/>
+        <Class IRI="#SKMO_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000077"/>
+        <Class IRI="#SKMO_0000081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000077"/>
+        <Class IRI="#SKMO_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000078"/>
+        <Class IRI="#SKMO_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000078"/>
+        <Class IRI="#SKMO_0000081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000078"/>
+        <Class IRI="#SKMO_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000079"/>
+        <Class IRI="#SKMO_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000079"/>
+        <Class IRI="#SKMO_0000081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000079"/>
+        <Class IRI="#SKMO_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000080"/>
+        <Class IRI="#SKMO_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000080"/>
+        <Class IRI="#SKMO_0000081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000080"/>
+        <Class IRI="#SKMO_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000081"/>
+        <Class IRI="#SKMO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000082"/>
+        <Class IRI="#SKMO_0000048"/>
+    </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SKMO_0000001</IRI>
@@ -863,6 +1035,106 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SKMO_0000062</IRI>
         <Literal xml:lang="en">Ozone depleting potential hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000063</IRI>
+        <Literal xml:lang="en">Category 1A reactivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000064</IRI>
+        <Literal xml:lang="en">Category 1B reactivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000065</IRI>
+        <Literal xml:lang="en">Category 2 reactivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000066</IRI>
+        <Literal xml:lang="en">Acute Oral Toxicity Categories and Classification Criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000067</IRI>
+        <Literal xml:lang="en">Category 1 (Oral LD50)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000068</IRI>
+        <Literal xml:lang="en">Category 2 (Oral LD50)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000069</IRI>
+        <Literal xml:lang="en">Category 3 (Oral LD50)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000070</IRI>
+        <Literal xml:lang="en">Category 4 (Oral LD50)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000071</IRI>
+        <Literal xml:lang="en">Acute Dermal Toxicity Categories and Classification Criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000072</IRI>
+        <Literal xml:lang="en">Category 1 (Dermal LD50)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000073</IRI>
+        <Literal xml:lang="en">Category 2 (Dermal LD50)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000074</IRI>
+        <Literal xml:lang="en">Category 3 (Dermal LD50)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000075</IRI>
+        <Literal xml:lang="en">Category 4 (Dermal LD50)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000076</IRI>
+        <Literal xml:lang="en">Acute Inhalation (Gases) Toxicity Categories and Classification Criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000077</IRI>
+        <Literal xml:lang="en">Category 1 (Inhalation LC50)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000078</IRI>
+        <Literal xml:lang="en">Category 2 (Inhalation LC50)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000079</IRI>
+        <Literal xml:lang="en">Category 3 (Inhalation LC50)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000080</IRI>
+        <Literal xml:lang="en">Category 4 (Inhalation LC50)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000081</IRI>
+        <Literal xml:lang="en">Acute Inhalation (Vapors) Toxicity Categories and Classification Criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000082</IRI>
+        <Literal xml:lang="en">Acute Inhalation (Dust and Mists) Toxicity Categories and Classification Criteria</Literal>
     </AnnotationAssertion>
 </Ontology>
 
