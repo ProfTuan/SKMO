@@ -12,6 +12,7 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/chebi-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/ecto-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/gsso-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/iao-extract.owl</Import>
@@ -20,8 +21,422 @@
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/omit-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/pato-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/proco-extract.owl</Import>
-    <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/chebi-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/sio-extract.owl</Import>
+    <Declaration>
+        <Class IRI="#SKMO_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000027"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SKMO_0000022"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SKMO_0000023"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SKMO_0000024"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SKMO_0000025"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000002"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000003"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000004"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000005"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000006"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000007"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000008"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000009"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000010"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000011"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000012"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000013"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000014"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000018"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000020"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000021"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000022"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000022"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#SKMO_0000017"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000022"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#SKMO_0000018"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000022"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#SKMO_0000019"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000022"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#SKMO_0000020"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000022"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#SKMO_0000021"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000023"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000023"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#SKMO_0000026"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000023"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002180"/>
+            <Class IRI="#SKMO_0000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000024"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000024"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000136"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000025"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000136"/>
+            <Class IRI="http://semanticscience.org/resource/SIO_001319"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000026"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000027"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000001</IRI>
+        <Literal xml:lang="en">Product Identification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000002</IRI>
+        <Literal xml:lang="en">Hazard Identification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000003</IRI>
+        <Literal xml:lang="en">Composition on Ingredients</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000004</IRI>
+        <Literal xml:lang="en">First-Aid Measures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000005</IRI>
+        <Literal xml:lang="en">Fire-Fighting Measures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000006</IRI>
+        <Literal xml:lang="en">Accidental Release Measures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000007</IRI>
+        <Literal xml:lang="en">Handling and Storage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000008</IRI>
+        <Literal xml:lang="en">Exposure Controls and Personal Protection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000009</IRI>
+        <Literal xml:lang="en">Physical and Chemical Properties</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000010</IRI>
+        <Literal xml:lang="en">Stability and Reactivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000011</IRI>
+        <Literal xml:lang="en">Toxicological Information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000012</IRI>
+        <Literal xml:lang="en">Ecological Information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000013</IRI>
+        <Literal xml:lang="en">Disposal Consideration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000014</IRI>
+        <Literal xml:lang="en">Transport Information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000015</IRI>
+        <Literal xml:lang="en">Regulatory Information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000016</IRI>
+        <Literal xml:lang="en">Other Information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000017</IRI>
+        <Literal xml:lang="en">product name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000018</IRI>
+        <Literal xml:lang="en">product number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000019</IRI>
+        <Literal xml:lang="en">CAS number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000020</IRI>
+        <Literal xml:lang="en">catalogue number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000021</IRI>
+        <Literal xml:lang="en">index number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000022</IRI>
+        <Literal xml:lang="en">Product identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000023</IRI>
+        <Literal xml:lang="en">Relevant uses and uses advised against of substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000024</IRI>
+        <Literal xml:lang="en">Supplier information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000025</IRI>
+        <Literal xml:lang="en">Emergency contact information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000026</IRI>
+        <Literal xml:lang="en">recommended uses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000027</IRI>
+        <Literal xml:lang="en">uses advised against</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
