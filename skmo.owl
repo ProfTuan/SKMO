@@ -296,6 +296,36 @@
     <Declaration>
         <Class IRI="#SKMO_0000091"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000093"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000096"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000098"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKMO_0000101"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#SKMO_0000001"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
@@ -854,6 +884,46 @@
             <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000001"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000092"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000306"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000093"/>
+        <Class IRI="#SKMO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000094"/>
+        <Class IRI="#SKMO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000095"/>
+        <Class IRI="#SKMO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000096"/>
+        <Class IRI="#SKMO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000097"/>
+        <Class IRI="#SKMO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000098"/>
+        <Class IRI="#SKMO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000099"/>
+        <Class IRI="#SKMO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000100"/>
+        <Class IRI="#SKMO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKMO_0000101"/>
+        <Class IRI="#SKMO_0000092"/>
+    </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SKMO_0000001</IRI>
@@ -1308,6 +1378,146 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SKMO_0000091</IRI>
         <Literal xml:lang="en">Immediate medical treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000092</IRI>
+        <Literal xml:lang="en">Hazard Class Pictograms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#SKMO_0000093</IRI>
+        <Literal>GHS01</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/image"/>
+        <IRI>#SKMO_0000093</IRI>
+        <Literal>https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS01.gif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000093</IRI>
+        <Literal xml:lang="en">Exploding Bomb Explosives</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#SKMO_0000094</IRI>
+        <Literal>GHS02</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/image"/>
+        <IRI>#SKMO_0000094</IRI>
+        <Literal>https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS02.gif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000094</IRI>
+        <Literal xml:lang="en">Flame Flammables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/image"/>
+        <IRI>#SKMO_0000095</IRI>
+        <Literal>GHS03</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/image"/>
+        <IRI>#SKMO_0000095</IRI>
+        <Literal>https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS03.gif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000095</IRI>
+        <Literal xml:lang="en">Flame Over Circle Oxidizers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#SKMO_0000096</IRI>
+        <Literal>GHS04</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/image"/>
+        <IRI>#SKMO_0000096</IRI>
+        <Literal>https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS04.gif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000096</IRI>
+        <Literal xml:lang="en">Gas Cylinder Compressed Gases</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#SKMO_0000097</IRI>
+        <Literal>GHS05</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/image"/>
+        <IRI>#SKMO_0000097</IRI>
+        <Literal>https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS05.gif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000097</IRI>
+        <Literal xml:lang="en">Corrosion Corrosives</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#SKMO_0000098</IRI>
+        <Literal>GHS06</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/image"/>
+        <IRI>#SKMO_0000098</IRI>
+        <Literal>https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS06.gif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000098</IRI>
+        <Literal xml:lang="en">Skull and Crossbones Acute Toxicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#SKMO_0000099</IRI>
+        <Literal>GHS07</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/image"/>
+        <IRI>#SKMO_0000099</IRI>
+        <Literal>https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.gif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000099</IRI>
+        <Literal xml:lang="en">Exclamation Mark Irritant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#SKMO_0000100</IRI>
+        <Literal>GHS08</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/image"/>
+        <IRI>#SKMO_0000100</IRI>
+        <Literal>https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS08.gif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000100</IRI>
+        <Literal xml:lang="en">Health Hazard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#SKMO_0000101</IRI>
+        <Literal>GHS09</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/image"/>
+        <IRI>#SKMO_0000101</IRI>
+        <Literal>https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS09.gif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SKMO_0000101</IRI>
+        <Literal xml:lang="en">Environment</Literal>
     </AnnotationAssertion>
 </Ontology>
 
