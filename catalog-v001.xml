@@ -12,17 +12,17 @@
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ecto-extract.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/ecto-extract.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/chebi/241/chebi.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/chebi-extract.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1745596154735" name="http://ontofox.hegroup.org/4n55ohg8.owl" uri="imports/sio-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1745596154735" name="http://ontofox.hegroup.org/rzuj503r.owl" uri="imports/omit-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1745596154735" name="http://purl.obolibrary.org/obo/chebi.owl" uri="imports/chebi-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1745596154735" name="http://purl.obolibrary.org/obo/ecto-extract.owl" uri="imports/ecto-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1745596154735" name="http://purl.obolibrary.org/obo/gsso-extract.owl" uri="imports/gsso-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1745596154735" name="http://purl.obolibrary.org/obo/iao-extract.owl" uri="imports/iao-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1745596154735" name="http://purl.obolibrary.org/obo/maxo-extract.owl" uri="imports/maxo-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1745596154735" name="http://purl.obolibrary.org/obo/obi-extract.owl" uri="imports/obi-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1745596154735" name="http://purl.obolibrary.org/obo/pato-extract.owl" uri="imports/pato-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1745596154735" name="http://purl.obolibrary.org/obo/proco-extract.owl" uri="imports/proco-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1745596154735" name="duplicate:http://w3id.org/skmo.owl" uri="skmo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1745596154735" name="duplicate:http://w3id.org/skmo.owl" uri="skmo-merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1745343058960" name="http://ontofox.hegroup.org/4n55ohg8.owl" uri="imports/sio-extract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1745343058960" name="http://ontofox.hegroup.org/rzuj503r.owl" uri="imports/omit-extract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1745343058960" name="http://purl.obolibrary.org/obo/chebi.owl" uri="imports/chebi-extract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1745343058960" name="http://purl.obolibrary.org/obo/ecto-extract.owl" uri="imports/ecto-extract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1745343058960" name="http://purl.obolibrary.org/obo/gsso-extract.owl" uri="imports/gsso-extract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1745343058960" name="http://purl.obolibrary.org/obo/iao-extract.owl" uri="imports/iao-extract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1745343058960" name="http://purl.obolibrary.org/obo/maxo-extract.owl" uri="imports/maxo-extract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1745343058960" name="http://purl.obolibrary.org/obo/obi-extract.owl" uri="imports/obi-extract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1745343058960" name="http://purl.obolibrary.org/obo/pato-extract.owl" uri="imports/pato-extract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1745343058960" name="http://purl.obolibrary.org/obo/proco-extract.owl" uri="imports/proco-extract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1745343058960" name="duplicate:http://w3id.org/skmo.owl" uri="skmo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1745343058960" name="duplicate:http://w3id.org/skmo.owl" uri="skmo-merged.owl"/>
     </group>
 </catalog>
