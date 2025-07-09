@@ -23,6 +23,11 @@
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/pato-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/proco-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/sio-extract.owl</Import>
+    <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/oae-extract.owl</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal>Safety Knowledge Model Ontology</Literal>
+    </Annotation>
     <Declaration>
         <Class IRI="#SKMO_00000000"/>
     </Declaration>
