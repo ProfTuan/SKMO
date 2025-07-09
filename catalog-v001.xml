@@ -1,29 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/symp/releases/2024-05-17/symp.owl" uri="http://purl.obolibrary.org/obo/symp.owl"/>
-    <uri id="Imports Wizard Entry" name="http://semanticscience.org/ontology/sio-extract.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/sio-extract.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/proco-extract.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/proco-extract.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/pato-extract.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/pato-extract.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/omit-extract.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/omit-extract.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/obi-extract.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/obi-extract.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/maxo-extract.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/maxo-extract.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/iao-extract.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/iao-extract.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/gsso-extract.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/gsso-extract.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ecto-extract.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/ecto-extract.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/chebi/241/chebi.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/chebi-extract.owl"/>
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="http://ontofox.hegroup.org/4n55ohg8.owl" uri="imports/sio-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="http://ontofox.hegroup.org/rzuj503r.owl" uri="imports/omit-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="http://purl.obolibrary.org/obo/chebi.owl" uri="imports/chebi-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="http://purl.obolibrary.org/obo/ecto-extract.owl" uri="imports/ecto-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="http://purl.obolibrary.org/obo/gsso-extract.owl" uri="imports/gsso-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="http://purl.obolibrary.org/obo/iao-extract.owl" uri="imports/iao-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="http://purl.obolibrary.org/obo/maxo-extract.owl" uri="imports/maxo-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="http://purl.obolibrary.org/obo/obi-extract.owl" uri="imports/obi-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="http://purl.obolibrary.org/obo/pato-extract.owl" uri="imports/pato-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="http://purl.obolibrary.org/obo/proco-extract.owl" uri="imports/proco-extract.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="duplicate:http://w3id.org/skmo.owl" uri="skmo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="duplicate:http://w3id.org/skmo.owl" uri="skmo-merged.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1752082668029" name="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/imported-terms.owl" uri="imports/imported-terms.owl"/>
-    </group>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/oae-import.owl" uri="https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/oae-extract.owl"/>
 </catalog>

@@ -12,18 +12,19 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/oae-extract.owl</Import>
     <Import>http://purl.obolibrary.org/obo/symp/releases/2024-05-17/symp.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/chebi-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/ecto-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/gsso-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/iao-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/maxo-extract.owl</Import>
+    <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/oae-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/obi-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/omit-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/pato-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/proco-extract.owl</Import>
     <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/sio-extract.owl</Import>
-    <Import>https://raw.githubusercontent.com/ProfTuan/SKMO/refs/heads/main/imports/oae-extract.owl</Import>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
         <Literal>Safety Knowledge Model Ontology</Literal>
@@ -333,6 +334,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#SKMO_0000101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/SYMP_0000462"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#SKMO_00000000"/>
